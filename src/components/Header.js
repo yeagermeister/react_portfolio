@@ -5,12 +5,12 @@ const Header = (props) => {
     // const handlePageChange = (page) => setCurrentPage(page);
 
     return(
-    <div class="container-fluid">
-        <div class="row header">
-            <div class="col-sm">
-                <p class="p-2">John Yeager</p>
+    <div className="container-fluid">
+        <div className="row header">
+            <div className="col-sm">
+                <p className="p-2">John Yeager</p>
             </div>
-            <div class="col-sm">
+            <div className="col-sm">
             <Nav currentPage={props.currentPage} handlePageChange={props.handlePageChange} />
             </div>
         </div>
