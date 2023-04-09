@@ -1,14 +1,12 @@
 import React from 'react';
-import Nav from './Navigation';
+import Nav from './Nav';
 
 const Header = (props) => {
-    // const handlePageChange = (page) => setCurrentPage(page);
-
     return(
     <div className="container-fluid">
         <div className="row header">
             <div className="col-sm">
-                <p className="p-2">John Yeager</p>
+                <p className="p-2 intro">John Yeager</p>
             </div>
             <div className="col-sm">
             <Nav currentPage={props.currentPage} handlePageChange={props.handlePageChange} />

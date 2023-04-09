@@ -15,3 +15,12 @@ h1 {
   background-color: var(--grey);
   color: white;
 }
+
+.intro {
+  font: Noir;
+  font-size: xx-large;
+}
+
+.focus {
+  color: var(--blue) !important
+}
