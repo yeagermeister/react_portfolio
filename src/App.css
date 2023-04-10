@@ -11,6 +11,10 @@ h1 {
   background-color: var(--blue);
 }
 
+ul {
+  list-style: none;
+}
+
 .header {
   background-color: var(--grey);
   color: white;
@@ -23,4 +27,51 @@ h1 {
 
 .focus {
   color: var(--blue) !important
+}
+
+.footer {
+  background-color: var(--grey);
+}
+
+.footer-link {
+  width: 50px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.profile-pic {
+  width: 250px;
+  height: 150px;
+}
+
+.li-header {
+  font-weight:800 !important;
+}
+
+.form {
+  margin: 20px;
+}
+
+.form input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.project-card {
+  /* width: 300px !important;
+  height: 200px !important; */
+  margin: 5px !important;
+  margin-bottom: 15px !important;
+}
+
+.card-title {
+  font-weight: bold !important;
+}
+
+.card-image {
+  text-align: center;
+  width: 300px;
+  height: 200px;
 }

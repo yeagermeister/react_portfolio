@@ -1,24 +1,71 @@
 import React from 'react';
+import Project from '../Project';
+
+const projects = [
+	{
+    id: 1,
+    projectName: "Springhunters",
+    img: process.env.PUBLIC_URL + '/images/springhunters-splash.png',
+    alt: "Springhunters Website",
+    type: "Node, Express, Mysql",
+    link: "https://springhunters1.herokuapp.com",
+    githubLink: "https://github.com/yeagermeister/springhunters-dev"
+},
+{
+  id: 2,
+  projectName: "HTML Portfolio",
+  img: process.env.PUBLIC_URL + '/images/portfolio.png',
+  alt: "HTML Portfolio",
+  type: "HTML, CSS, Javascript",
+  link: "https://yeagermeister.github.io/portfolio/",
+  githubLink: "https://github.com/yeagermeister/portfolio"
+},
+{
+  id: 3,
+  projectName: "Weather Dashboard",
+  img: process.env.PUBLIC_URL + '/images/weather-dashboard.png',
+  alt: "Weather Dashboard",
+  type: "HTML, CSS, Javascript",
+  link: "https://yeagermeister.github.io/weather_dashboard/",
+  githubLink: "https://github.com/yeagermeister/weather_dashboard"
+},
+{
+  id: 4,
+  projectName: "Password Generator",
+  img: process.env.PUBLIC_URL + '/images/password-generator.png',
+  alt: "Password Generator",
+  type: "HTML, CSS, Javascript",
+  link: "https://yeagermeister.github.io/password_generator/",
+  githubLink: "https://github.com/yeagermeister/password_generator"
+},
+{
+  id: 5,
+  projectName: "Code Quiz",
+  img: process.env.PUBLIC_URL + '/images/code-quiz.png',
+  alt: "Code Quiz",
+  type: "HTML, CSS, Javascript",
+  link: "https://yeagermeister.github.io/codequiz/",
+  githubLink: "https://github.com/yeagermeister/codequiz"
+},
+{
+  id: 6,
+  projectName: "React Portfolio",
+  img: process.env.PUBLIC_URL + '/images/react-profile.png',
+  alt: "React Portfolio",
+  type: "React",
+  link: "https://yeagermeister.github.io/react_portfolio/",
+  githubLink: "https://github.com/yeagermeister/react_portfolio"
+}
+
+];
 
 export default function Portfolio() {
+
+
   return (
-    <div>
-      <h1>Portfolio Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+    <div class='container'>
+      <h1 className='p-2'>My Published Projects</h1>
+      <Project projects={projects} />
     </div>
   );
 }

@@ -4,7 +4,7 @@ import React from 'react';
 const Nav = (props) => {
 
   return (
-    <nav className='container mt-3'>
+    <nav className='container mt-3 pb-3'>
         <div className='row'>
             <div className='col-sm'>
                 <a href="/About" onClick={(event) => 

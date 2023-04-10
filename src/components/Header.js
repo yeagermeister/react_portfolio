@@ -3,7 +3,7 @@ import Nav from './Nav';
 
 const Header = (props) => {
     return(
-    <div className="container-fluid">
+    <div className="container">
         <div className="row header">
             <div className="col-sm">
                 <p className="p-2 intro">John Yeager</p>
