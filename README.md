@@ -1,4 +1,4 @@
-# SocialMediaAPI
+# JOnh Yeager's Portfolio
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)     
 This is my personal portfolio to display sites and projects that I have built, either solo or as part of a team.
 
