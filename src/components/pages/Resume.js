@@ -28,6 +28,9 @@ export default function Resume() {
               <li>Six Sigma Greenbelt</li>
               <li>Jira, Teams, Sharepoint</li>
               <li>Itential Automation Platform</li>
+              <li>US Army - Multichannel Transmission Systems Operator/Maintainer - 4 year enlistment</li>
+              <li>American Legion Post 291 Adjutant </li>
+              <li>Attendes the Pennsylvania State University</li>
             </ul>
           </div>
         </div>
